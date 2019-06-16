@@ -1,14 +1,14 @@
 {
-  "summary" : "Summary of your plugin",
+  "summary" : "This plugin make color information as a text from selected object fill. It help you make design guidelines.",
   "languages" : [ "en" ],
-  "author" : "Your Name",
-  "name" : "displayColors",
+  "author" : "Naruhito Kubota",
+  "name" : "Display Colors",
   "host" : {
     "app" : "XD",
     "minVersion" : "13.0"
   },
-  "description" : "Description of your plugin.",
-  "helpUrl" : "https://mywebsite.com/help",
+  "description" : "This plugin make color information as a text from selected object fill. It help you easily make design guidelines.",
+  "helpUrl" : "https://adobexd.dev/display-colors",
   "id" : "3c902d99",
   "icons" : [ {
     "path" : "images/icon@1x.png",
@@ -32,9 +32,9 @@
     "height" : 192
   } ],
   "uiEntryPoints" : [ {
-    "label" : "Create Rectangle",
+    "label" : "Display Colors",
     "type" : "menu",
-    "commandId" : "createRectangle"
+    "commandId" : "displayColors"
   } ],
   "version" : "0.0.1"
 }
